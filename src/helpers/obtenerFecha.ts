@@ -1,0 +1,1 @@
+export const obtenerFecha = (fecha: Date | string): string => ((typeof fecha === 'object') ? JSON.stringify(fecha).substring(1, 11) : fecha);
