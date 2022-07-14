@@ -1,6 +1,6 @@
 export const AREA = 'Credito-Canales-Terceros';
 export const CABECERA = 'content-type';
-export const CDT = 'Plataforma-CDT';
+export const CDT = 'AppEvaluation-CDT';
 export const CODIGO_200 = 200;
 export const CODIGO_201 = 201;
 export const CODIGO_400 = 400;
