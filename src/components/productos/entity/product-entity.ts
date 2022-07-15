@@ -28,6 +28,9 @@ export class Product {
   img: string;
 
   @Column()
+  path: string;
+
+  @Column()
   options: string;
 
 }

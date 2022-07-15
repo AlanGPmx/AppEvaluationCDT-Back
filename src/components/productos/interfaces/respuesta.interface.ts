@@ -10,3 +10,12 @@ export interface Respuesta {
     productos: Productos[];
   };
 }
+
+export interface RespuestaOne {
+  codigo?: string;
+  detalles?: string[];
+  folio: string;
+  info?: string;
+  mensaje: string;
+  resultado?: Productos;
+}
